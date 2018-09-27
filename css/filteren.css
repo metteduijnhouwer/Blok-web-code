@@ -1,0 +1,9 @@
+label{
+  display: block;
+}
+
+@media (min-width: 80em) {
+  label {
+    display: inline;
+  }
+}

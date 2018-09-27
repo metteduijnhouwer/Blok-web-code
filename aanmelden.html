@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aanmelden</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="aanmelden">
+   <header>
+          <nav>
+              <ul>
+                  <li> <a href="index.html">
+                           <img src="images/Transavia_logo.png" alt="Transavia logo"/>
+                       </a>
+                  <li> <a href="verderlezen">Verder lezen</a></li>
+                  <li> <a href="alleverhalen">Alle verhalen</a></li>
+                  <li> <a href="leesgeschiedenis">Account</a></li>
+                  <li> <a href="beoordeeld">Beoordeeld</a></li>
+                  <li> <a href="favorieten">Favorieten</a></li>
+                  <li> <a href="opgeslagen">Gedownload</a></li>
+              </ul>
+           </nav>
+     </header>
+   <form action="index.html" class="aanmeldformulier">
+      <h1>Vul al je gegevens in en je account is aangemaakt</h1>
+       <p>Als je een account aanmaakt kan je verhalen downloaden en beoordelen.</p>
+        <legend>Algemeen</legend>
+            <label>Voornaam
+                <input type="text" name="naam" /></label>
+            <label>Achternaam
+                <input type="text" name="achternaam" /></label>
+            <label>Geboortedatum
+                <input type="date" name="geboortedatum"/></label>
+        <legend>Contactgegevens</legend>
+            <label>Email
+                <input type="email" name="email" /></label>
+            <label>Telefoonnummer
+                <input type="number" name="telefoonnummer" /></label>
+
+        <legend>Accountgegevens</legend>
+            <label>Gebruikersnaam
+                <input type="text" name="username" /></label>
+            <label>Wachtwoord <br/>
+                <input type="password" name="wachtwoord" /></label>
+                  <p>Je wachtwoord moet minimaal 8 tekens zijn.</p>
+        <button>Maak je account aan</button>
+   </form>
+</body>
+</html>

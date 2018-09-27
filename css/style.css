@@ -1,0 +1,308 @@
+
+/*home*/
+.home{
+    color:#51B15E;
+    font-family: 'Nexa Regular';
+    background-color:#EBD9C9;
+    margin:0;
+}
+
+article > h3{
+    font-size:2em;
+}
+
+article{
+    padding:1em;
+    border-radius: 1em;
+    width:20em;
+    box-sizing:border-box;
+    margin-top:1.5em;
+    background-color: white;
+    margin-left:2em;
+}
+
+article > h3{
+    color:darkblue;
+    margin-bottom:0;
+}
+
+article > img{
+    width:100%;
+}
+
+article > a{
+    text-decoration:none;
+    display:block;
+    background-color:#E9466A;
+    color:white;
+    padding: .5em;
+    border-radius: 1em;
+    text-align: center;
+
+
+}
+
+header{
+    margin:0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    display: inline-block;
+    padding: 10px;
+}
+
+li a {
+    display: block;
+    color: #51B15E;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:1.1em;
+}
+
+li a:hover {
+    color:darkblue;
+}
+
+a > img {
+    width:10em;
+    height:2em;
+}
+
+.bovenkant{
+    background-image: url(/css/achtergrond.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:120%;
+}
+
+.bovenkant h1{
+    text-align: center;
+    padding-top:1em;
+    color:white;
+}
+
+.bovenkant p{
+    text-align: center;
+    color:darkblue;
+}
+
+.zoeken{
+    border: solid;
+    background-color: white;
+    border:white;
+    margin:2em;
+    padding:1em;
+    width:30em;
+    border-radius: 1em;
+    font-family: 'Nexa XBold';
+    margin-left:auto;
+    margin-right: auto;
+    height:15em;
+    margin-bottom: 6em;
+
+}
+
+.zoeken label{
+    display: block;
+    font-size: 2em;
+    margin-bottom: 1em;
+    margin-top:1em;
+    margin-left:1em;
+}
+
+.zoeken input{
+    display:block;
+    font-size:1em;
+    padding:0.4em 12em 0.4em 1em;
+    border-radius: 0.6em;
+    margin-left:2em;
+}
+
+.zoeken button{
+    margin: 2em auto;
+    display:block;
+    font-size: 1.3em;
+    border-radius: 1em;
+    padding:0.5em 2em;
+    background-color:deeppink;
+    color:white;
+
+}
+
+.filteren{
+    border: solid;
+    background-color: white;
+    border:white;
+    padding:1em;
+    width:30em;
+    border-radius: 1em;
+    margin-left:auto;
+    margin-right: auto;
+    height:28em;
+    margin-bottom: 6em;
+
+}
+
+.filteren legend{
+    font-size:2em;
+    font-family: "Nexa XBold";
+    margin-left:1em;
+    margin-top:1em
+}
+
+.filteren label{
+    display:block;
+    margin-left:2em;
+}
+
+.filteren p{
+    margin-top:1em;
+    margin-bottom:0.5em;
+    text-align: left;
+    margin-left:2em;
+
+}
+
+.filteren button{
+    margin:1em 1em;
+    display:block;
+    font-size: 1.3em;
+    border-radius: 1em;
+    padding:0.5em 2em;
+    background-color:deeppink;
+    color:white;
+}
+
+/* inloggen */
+
+.inloggen{
+    background-color:#51B15E;
+    margin:0;
+    font-family: 'Nexa Regular';
+}
+
+.inlogformulier h1{
+    padding:1em 1em 0 1em;
+    color:darkblue;
+    font-family: "Nexa XBold";
+}
+
+.inlogformulier{
+    border:white;
+    background: white;
+    width:30em;
+    margin:auto;
+    border-radius: 1em;
+    margin-top:5em;
+}
+
+.inlogformulier p{
+    margin-left:2em;
+    padding:1em 0;
+}
+
+.inlogformulier button{
+    margin:0 0 1em 1.3em;
+    font-size: 1.3em;
+    border-radius: 1em;
+    padding:0.5em 2em;
+    background-color:deeppink;
+    color:white;
+}
+
+.inlogformulier label{
+    display:block;
+    margin:1em 0 1em 2em;
+    font-family: "Nexa XBold";
+}
+
+.inlogformulier input{
+    display:block;
+    font-size:1em;
+    padding:0.4em 15em 0.4em 0.4em;
+    border-radius: 0.4em;
+    margin-top:0.3em;
+    margin-bottom:1em;
+}
+
+.inlogformulier a{
+    display:block;
+    margin-left: 2em;
+    padding-bottom: 3em;
+    padding-top:1em;
+    color: darkblue;
+}
+
+/* aanmelden */
+
+.aanmelden{
+    background-color:#51B15E;
+    margin:0;
+    font-family: 'Nexa Regular';
+}
+
+.aanmeldformulier{
+    border:white;
+    background: white;
+    width:40em;
+    margin:auto;
+    padding-left:3em;
+    border-radius: 1em;
+    margin-top:5em;
+    margin-bottom:6em;
+}
+
+.aanmeldformulier legend, .aanmeldformulier label, .aanmeldformulier input{
+    display:block;
+}
+
+.aanmeldformulier h1{
+    padding-top:1.3em;
+    margin-bottom:0;
+    color:#51B15E;
+    font-family: "Nexa XBold";
+}
+
+.aanmeldformulier legend{
+    font-size: 1.3em;
+    color:darkblue;
+    padding-bottom: 0.5em;
+    padding-top:1.6em;
+    font-family: "Nexa XBold";
+}
+
+.aanmeldformulier label{
+        font-family: "Nexa XBold";
+}
+
+.aanmeldformulier input{
+    font-size:1em;
+    padding:0.4em 15em 0.4em 0.4em;
+    border-radius: 0.4em;
+    margin-top:0.3em;
+    margin-bottom:1em;
+}
+
+.aanmeldformulier button{
+    margin:2.5em 0 2em 0;
+    font-size: 1.1em;
+    border-radius: 1em;
+    padding:0.5em 2em;
+    background-color:deeppink;
+    color:white;
+    font-family: "Nexa XBold";
+}
+
+.aanmeldformulier p{
+    margin-top:1.5em;
+}
