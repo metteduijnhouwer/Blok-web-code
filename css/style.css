@@ -52,7 +52,7 @@
 @media (min-width:400px){
 
     .verhaalpagina{
-        background-image: url(/images/achtergrondtelefoon.png);
+        background-image: url('/images/achtergrondtelefoon.png');
         background-repeat: no-repeat;
         background-position: fixed;
         background-attachment: fixed;
@@ -80,7 +80,7 @@
         padding-bottom:7em;
 }
     .verhaalpagina{
-        background-image: url(/images/achtergrondtablet.png);
+        background-image: url('/images/achtergrondtablet.png');
         background-repeat: no-repeat;
         background-position: fixed;
         background-attachment: fixed;
@@ -99,7 +99,7 @@
         padding-bottom:7em;
 }
     .verhaalpagina{
-        background-image: url(/images/achtergrondcomputer.png);
+        background-image: url('/images/achtergrondcomputer.png');
         background-repeat: no-repeat;
         background-position: fixed;
         background-attachment: fixed;
