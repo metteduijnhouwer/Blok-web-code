@@ -16,7 +16,7 @@
 /* responsive maken */
 
 
-@media (min-width:400px){
+@media (min-width:200px){
     .home section.nieuw article:first-of-type{
     margin:auto;
     opacity: 0;
@@ -49,7 +49,7 @@
 }
 
 
-@media (min-width:400px){
+@media (min-width:200px){
 
     .verhaalpagina{
         background-image: url(../images/achtergrondtelefoon.png);
