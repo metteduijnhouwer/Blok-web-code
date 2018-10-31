@@ -56,7 +56,7 @@
         background-repeat: no-repeat;
         background-position: fixed;
         background-attachment: fixed;
-        background-size: 101% ;
+        background-size: 100% 101% ;
 
     }
 
@@ -780,6 +780,7 @@ fieldset{
 
 }
 
+
 .filteren button{
     margin:1.5em 1em 1em 1em;
     display:block;
@@ -959,7 +960,7 @@ main > p:first-of-type {
     padding-top:10em;
 }
 
-.verhaal article:first-of-type {
+.verhaal article:first-of-type  {
     padding-left:10em;
     padding-right:10em;
     justify-content: center;
@@ -983,10 +984,10 @@ main > p:first-of-type {
 
 .verhaal section{
     justify-content: center;
-    margin-left:auto;
-    margin-right:auto;
     display: grid;
     background-color:#51B15E;
+    width:112%;
+    margin-bottom:0;
 }
 
 .verhaal article img{
@@ -1002,14 +1003,56 @@ main > p:first-of-type {
     margin-right:7em;
     padding:1em;
     padding-right:12em;
+    border: solid lightgray;
 
 }
 
-.verhaal article form button{
+.verhaal main + img{
+    min-width: 20em;
+    max-width:40em;
 
 }
 
 
 section img:nth-of-type(12){
     width:10em;
+}
+
+.filteren fieldset:nth-of-type(2) label + input{
+    size:10em;
+}
+
+.verhaal input + img{
+    width:10em;
+    margin-top:-14em;
+}
+
+.verhaal button{
+    margin-right:-3em;
+    margin-top:4em;
+    margin-left:2em;
+    width:10em;
+    background-color:deeppink;
+    color:white;
+    border-radius: 1em;
+    padding:1em;
+    font-size:0.75em;
+}
+
+.verhaal article:nth-of-type(2) img{
+    margin-left:0;
+    width:10em;
+    margin-top:-15em;
+}
+
+.verhaal article:nth-of-type(2) h3{
+    color:darkblue;
+    width:10em;
+    margin-top:-0.2em;
+
+}
+
+.verhaal article:nth-of-type(2){
+    padding-left:1em;
+    height:9em;
 }
