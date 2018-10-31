@@ -1,92 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Overzichtspagina</title>
     <link rel="stylesheet" href="css/style.css" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
-    <body class="home">
-        <header>
-          <nav>
-              <ul>
-                  <li> <a href="index.html">
-                           <img src="images/Transavia_logo.png" alt="Transavia logo"/></a>
-                  <li> <a href="verderlezen">Verder lezen</a></li>
-                  <li> <a href="alleverhalen">Alle verhalen</a></li>
-                  <li> <a href="leesgeschiedenis">Account</a></li>
-                  <li> <a href="beoordeeld">Beoordeeld</a></li>
-                  <li> <a href="favorieten">Favorieten</a></li>
-                  <li> <a href="opgeslagen">Gedownload</a></li>
-              </ul>
-           </nav>
-        </header>
 
+<body class="home">
+    <header>
+        <nav>
+            <ul>
+                <li> <a href="index.html">
+                    <img src="images/Transavia_logo.png" alt="Transavia logo"/></a></li>
+                <li> <a href="verderlezen">Verder lezen</a></li>
+                <li> <a href="favorieten">Favorieten</a></li>
+                <li> <a href="opgeslagen">Gedownload</a></li>
+                <li> <a href="account"> <img src="images/iconen.png" alt="acount"/></a></li>
+            </ul>
+        </nav>
+        <nav>
+            <ul>
+                <li> <a href="lijst.html"><img src="images/downloadtd.png" alt="downloadplaatje"></a> <div class="melding invisible">1</div></li>
+                <li> <a href="like.html"> <img src="images/hartjee.png" alt="like"/></a></li>
+                <li> <a href="book"> <img src="images/boekie.png" alt="book"/></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
         <div class="bovenkant">
             <h1>Welkom bij de 99 verhalen van Transavia.</h1>
-             <p>Hier kunt u tijdens uw reis genieten van 99 verschillende verhalen.</p>
+            <p>Hier kunt u tijdens uw reis genieten van 99 verschillende verhalen.</p>
 
-            <form action="zoeken.html" class="zoeken">
-             <label> Zoek hier een verhaal</label>
-             <input type="search" placeholder="Zoek een verhaal">
-              <button>Zoeken</button>
-            </form>
+            <form class="filteren" action="#resultaten">
+                <h2> Filter de 99 verhalen van Transavia </h2>
+                <fieldset>
+                    <legend>Thema</legend>
+                    <label>
+                        <input type="checkbox"> Liefde <span>(23)</span></label>
+                    <label>
+                        <input type="checkbox"> Dramatisch <span>(32)</span></label>
+                    <label>
+                        <input type="checkbox">Zielig <span>(17)</span></label>
+                    <label>
+                        <input type="checkbox"> Agressief <span>(10)</span></label>
+                </fieldset>
 
-            <form class="filteren" action="filteren">
-              <h2> Filteren </h2>
-                  <p>Thema</p>
-                      <label>
-                         <input type="checkbox"> Liefde </label>
-                      <label>
-                         <input type="checkbox"> Dramatisch</label>
-                      <label>
-                         <input type="checkbox"> Zielig</label>
-                      <label>
-                         <input type="checkbox"> Agressief</label>
-                   <p>Leestijd</p>
-                      <label>
-                         <input type="range" name="sorteren"></label>
+                <fieldset>
+                    <legend>Leestijd</legend>
+                    <label>20 s
+                         <input type="range" name="sorteren"> 3 min</label>
+                </fieldset>
 
-                   <p>Leesbaarheid</p>
-                      <label>
-                         <input type="checkbox"> Makkelijk</label>
-                      <label>
-                         <input type="checkbox"> Gemiddeld</label>
-                      <label>
-                         <input type="checkbox"> Moeilijk </label>
-                      <button>Filter verhalen</button>
+                <fieldset>
+                    <legend>Leesbaarheid</legend>
+                    <label>
+                        <input type="checkbox"> Makkelijk<span class="makkelijk">(29)</span></label>
+                    <label>
+                        <input type="checkbox"> Gemiddeld <span class="gemiddeld">(44)</span></label>
+                    <label>
+                        <input type="checkbox"> Moeilijk <span class=moeilijk>(26)</span> </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Sorteren op</legend>
+                    <label>
+                        <input type="radio"> Aanbevolen</label>
+                    <label>
+                        <input type="radio"> Populair</label>
+                    <label>
+                        <input type="radio"> Verras me</label>
+                    <label>
+                        <input type="radio"> Nieuw</label>
+                </fieldset>
+                <button>Resultaten <span class=resultaten>(99)</span></button>
+                <img src="images/pijltje.png" alt="pijl">
+                <a name="resultaten"></a>
+                <img src="images/filterenknop.png" alt="knop">
+
             </form>
         </div>
 
-        <nav>
-          <ul>
-              <li><a href="aanbevolen">Aanbevolen</a></li>
-              <li><a href="verrasme">Verras me</a></li>
-              <li><a href="top10">Top 10</a></li>
-          </ul>
-        </nav>
+        <h2>Alle 99 verhalen</h2>
+        <section>
+            <article>
+                <div class="download">
+                    <img src="images/downloadknop_Tekengebied%201.png" alt="downloadenknop">
+                    <img src="images/rondje_Tekengebied%201.png" alt="draaien">
+                    <img src="images/rondje-vulling_Tekengebied%201.png" alt="vulling">
+                    <img src="images/rondje-vulling2_Tekengebied%201.png" alt="vulling2">
+                    <img src="images/rondje-3_Tekengebied%201.png" alt="vulling3">
+                    <img src="images/rondje-4_Tekengebied%201.png" alt="rondje4">
+                    <img src="images/vol-rondje_Tekengebied%201.png" alt="vol">
+                    <img src="images/vinkje_Tekengebied%201.png" alt="vinkje">
+                    <img src="images/kruis-achtergrond_Tekengebied%201.png" alt="kruis">
+                    <img src="images/afval_Tekengebied%201.png" alt="prullebak">
+                    <img src="images/vinkje_Tekengebied%201.png" alt="vinkje">
+                    <span>Aan het downloaden...</span>
+                    <span>Gedownload!</span>
+                </div>
 
-      <article>
-        <h3>Stijloefening #54: De droom</h3>
-         <p>5 sterren</p>
-          <img src="images/dromen-afbeelding.jpg" alt="verhaal" width="500">
-            <p>Dit verhaal gaat over iemand die een wilde droom heeft.</p>
-             <a href="dedroom">Lees het verhaal 'De droom'</a>
-      </article>
 
-      <article>
-        <h3>Stijloefening #68: Neerslachtig</h3>
-         <h4>4 sterren</h4>
-          <img src="images/dromen-afbeelding.jpg" alt="verhaal" width="500">
-            <p>Dit verhaal gaat over een persoon die het leven heel negatief inziet.</p>
-            <a href="Neerslachtig">Lees het verhaal 'Neerslachtig'</a>
-      </article>
+                <h3>Stijloefening #54: De droom</h3>
+                <img src="images/Tekengebied%2014.png" alt="sterren">
+                <img src="images/dromen-afbeelding.jpg" alt="verhaal" width="500">
+                <p>Dit verhaal gaat over iemand die een wilde droom heeft.</p>
+                <a href="dedroom">Lees het verhaal 'De droom'</a>
+            </article>
 
-      <article>
-        <h3>Stijloefening #99: Verrassing</h3>
-         <h4>4 sterren</h4>
-          <img src="images/dromen-afbeelding.jpg" alt="verhaal" width="500">
-            <p>Bij dit verhaal krijgt de ik-persoon een onaangename verrassing</p>
-            <a href="verassing">Lees het verhaal 'Verrassing'</a>
-      </article>
-    </body>
+            <article>
+               <div class="download">
+                    <img src="images/downloadknop_Tekengebied%201.png" alt="downloadenknop">
+                    <img src="images/rondje_Tekengebied%201.png" alt="draaien">
+                    <img src="images/rondje-vulling_Tekengebied%201.png" alt="vulling">
+                    <img src="images/rondje-vulling2_Tekengebied%201.png" alt="vulling2">
+                    <img src="images/rondje-3_Tekengebied%201.png" alt="vulling3">
+                    <img src="images/rondje-4_Tekengebied%201.png" alt="rondje4">
+                    <img src="images/vol-rondje_Tekengebied%201.png" alt="vol">
+                    <img src="images/vinkje_Tekengebied%201.png" alt="vinkje">
+                    <img src="images/kruis-achtergrond_Tekengebied%201.png" alt="kruis">
+                    <img src="images/afval_Tekengebied%201.png" alt="prullebak">
+                    <span>Aan het downloaden...</span>
+                    <span>Gedownload!</span>
+                </div>
+
+                <h3>Stijloefening #68: Neerslachtig</h3>
+                <img src="images/Tekengebied%2014.png" alt="sterren">
+                <img src="images/dromen-afbeelding.jpg" alt="verhaal" width="500">
+                <p>Dit verhaal gaat over een persoon die het leven heel negatief inziet.</p>
+                <a href="verhaal.html">Lees het verhaal 'Neerslachtig'</a>
+            </article>
+
+            <article>
+               <div class="download">
+                    <img src="images/downloadknop_Tekengebied%201.png" alt="downloadenknop">
+                    <img src="images/rondje_Tekengebied%201.png" alt="draaien">
+                    <img src="images/rondje-vulling_Tekengebied%201.png" alt="vulling">
+                    <img src="images/rondje-vulling2_Tekengebied%201.png" alt="vulling2">
+                    <img src="images/rondje-3_Tekengebied%201.png" alt="vulling3">
+                    <img src="images/rondje-4_Tekengebied%201.png" alt="rondje4">
+                    <img src="images/vol-rondje_Tekengebied%201.png" alt="vol">
+                    <img src="images/vinkje_Tekengebied%201.png" alt="vinkje">
+                    <img src="images/kruis-achtergrond_Tekengebied%201.png" alt="kruis">
+                    <img src="images/afval_Tekengebied%201.png" alt="prullebak">
+                    <span>Aan het downloaden...</span>
+                    <span>Gedownload!</span>
+                </div>
+
+                <h3>Stijloefening #99: Verrassing</h3>
+                <img src="images/Tekengebied%2014.png" alt="sterren">
+                <img src="images/dromen-afbeelding.jpg" alt="verhaal" width="500">
+                <p>Bij dit verhaal krijgt de ik-persoon een onaangename verrassing</p>
+                <a href="verassing">Lees het verhaal 'Verrassing'</a>
+            </article>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+
 </html>

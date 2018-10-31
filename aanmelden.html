@@ -9,21 +9,20 @@
    <header>
           <nav>
               <ul>
-                  <li> <a href="index.html">
-                           <img src="images/Transavia_logo.png" alt="Transavia logo"/>
-                       </a>
-                  <li> <a href="verderlezen">Verder lezen</a></li>
-                  <li> <a href="alleverhalen">Alle verhalen</a></li>
-                  <li> <a href="leesgeschiedenis">Account</a></li>
-                  <li> <a href="beoordeeld">Beoordeeld</a></li>
-                  <li> <a href="favorieten">Favorieten</a></li>
-                  <li> <a href="opgeslagen">Gedownload</a></li>
-              </ul>
+                <li> <a href="index.html">
+                    <img src="images/Transavia_logo.png" alt="Transavia logo"/></a></li>
+                <li> <a href="verderlezen">Verder lezen</a></li>
+                <li> <a href="favorieten">Favorieten</a></li>
+                <li> <a href="opgeslagen">Gedownload</a></li>
+                <li> <a href="account"> <img src="images/login-man-person-human-body-512.png" alt="acount"/></a></li>
+            </ul>
            </nav>
      </header>
-   <form action="index.html" class="aanmeldformulier">
+     <form action="index.html" class="aanmeldformulier">
       <h1>Vul al je gegevens in en je account is aangemaakt</h1>
        <p>Als je een account aanmaakt kan je verhalen downloaden en beoordelen.</p>
+
+     <fieldset>
         <legend>Algemeen</legend>
             <label>Voornaam
                 <input type="text" name="naam" /></label>
@@ -31,18 +30,24 @@
                 <input type="text" name="achternaam" /></label>
             <label>Geboortedatum
                 <input type="date" name="geboortedatum"/></label>
+     </fieldset>
+
+     <fieldset>
         <legend>Contactgegevens</legend>
             <label>Email
                 <input type="email" name="email" /></label>
             <label>Telefoonnummer
                 <input type="number" name="telefoonnummer" /></label>
+     </fieldset>
 
+     <fieldset>
         <legend>Accountgegevens</legend>
             <label>Gebruikersnaam
                 <input type="text" name="username" /></label>
             <label>Wachtwoord
                 <input type="password" name="wachtwoord" /></label>
                   <p>Je wachtwoord moet minimaal 8 tekens zijn.</p>
+     </fieldset>
         <button>Maak je account aan</button>
    </form>
 </body>
