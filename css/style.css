@@ -607,7 +607,7 @@ header >nav:nth-child(2) > ul > li{
 
 /* Zoeken, achtergrond en filteren */
 .bovenkant{
-    background-image: url(achtergrond.jpg);
+    background-image: url(/css/achtergrond.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
