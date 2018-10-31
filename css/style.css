@@ -150,7 +150,7 @@
 
     .home section.nieuw article:nth-of-type(3){
         margin-right:-24em;
-        margin-top:-34em;
+        margin-top:-36em;
         margin-bottom: 1em;
         margin-left:auto;
     }
@@ -173,7 +173,7 @@
         margin-left:auto;
         margin-top:0;
         margin-right:auto;
-        margin-bottom: auto;
+        margin-bottom: 0;
 
     }
 
@@ -205,6 +205,10 @@
 
     .bovenkant{
         margin-top:4em;
+    }
+
+    .home section article{
+        margin-top:3em;
     }
 
 
@@ -821,7 +825,7 @@ fieldset{
     font-size: 1.3em;
     border-radius: 1em;
     padding:0.5em 2em;
-    background-color:deeppink;
+    background-color:#E9466A;
     color:white;
     font-family: "Nexa XBold";
 }
@@ -870,7 +874,7 @@ fieldset{
     font-size: 1.3em;
     border-radius: 1em;
     padding:0.5em 2em;
-    background-color:deeppink;
+    background-color:#E9466A;
     color:white;
 }
 
@@ -897,6 +901,19 @@ fieldset{
     color: darkblue;
     font-size: 0.9em;
 }
+
+.inloggen input:invalid{
+    border: solid red;
+}
+
+.inloggen input:valid{
+    border:solid #51B15E;
+}
+
+.inloggen fieldset:invalid{
+    border:solid red;
+}
+
 
 /* aanmelden */
 
@@ -928,6 +945,15 @@ fieldset{
     color:#51B15E;
     font-family: "Nexa XBold";
     margin-right:1em
+}
+
+
+.aanmelden fieldset:nth-of-type(2) legend + label input:invalid{
+    border: solid red;
+}
+
+.aanmelden fieldset:nth-of-type(2) legend + label input:valid{
+    border: solid #51B15E;
 }
 
 .aanmeldformulier h2{
@@ -980,7 +1006,7 @@ fieldset{
     font-size: 1.1em;
     border-radius: 1em;
     padding:0.5em 2em;
-    background-color:deeppink;
+    background-color:#E9466A;
     color:white;
     font-family: "Nexa XBold";
 }
@@ -1064,7 +1090,7 @@ section img:nth-of-type(12){
     margin-top:4em;
     margin-left:2em;
     width:10em;
-    background-color:deeppink;
+    background-color:#E9466A;
     color:white;
     border-radius: 1em;
     padding:1em;
