@@ -40,7 +40,7 @@ var knopfilter = document.querySelector(".filteren button");
 function verhalen(){
     var section = document.querySelector('section');
     section.classList.add('nieuw');
-    document.querySelector("main > h2").textContent="23 resultaten";
+    document.querySelector("main section > h2").textContent="23 resultaten";
 }
 
 
@@ -56,3 +56,13 @@ function filterenOpen(){
 
 knopklap.addEventListener('click',filterenOpen);
 
+
+
+var zoekKnp = document.querySelector("nav:first-of-type > ul> li:nth-of-type(5) > img");
+
+function zoekenUit(){
+    var gedeelte = document.querySelector('nav + form');
+    gedeelte.classList.toggle('naKlik');
+}
+
+zoekKnp.addEventListener('click', zoekenUit);
